@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 25px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+    border-radius: 10px;
+  background-color: #18aaaa;
+    
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #065a5a;;
+    
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #3F444A;
+  background-color: #dee2e6;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  color: #CFF4FC;
+  
+}
+
+h2 {
+      font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: underline;
+
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+  min-height: 400px;
+
+}
