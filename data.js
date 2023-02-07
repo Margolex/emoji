@@ -1,5 +1,5 @@
 
-export let data = [
+// export let data = [
   {
     title: '100',
     symbol: '💯',

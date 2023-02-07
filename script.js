@@ -1,4 +1,7 @@
-import { data } from "./data.js";
+// import { data } from "./data.js";
+
+const response = await fetch("https://emoji.ymatuhin.workers.dev/");
+export const data = await response.json();
 
 const grid = document.querySelector(".grid");
 const search = document.querySelector(".input");
